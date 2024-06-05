@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="883.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.urmarirebugfinal.controller.ProgramatorViewController">
+   <children>
+      <Button layoutX="363.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleEliminaBug" text="Elimina Bug" />
+      <TableView fx:id="tabel_bug" layoutX="40.0" layoutY="66.0" prefHeight="200.0" prefWidth="808.0">
+        <columns>
+          <TableColumn fx:id="id_bug" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="denumire_bug" prefWidth="136.19998168945312" text="Denumire" />
+            <TableColumn fx:id="descriere_bug" prefWidth="454.99998474121094" text="Descriere" />
+            <TableColumn fx:id="stare_bug" prefWidth="139.4000244140625" text="Stare" />
+        </columns>
+      </TableView>
+      <Button layoutX="426.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+      <Button layoutX="444.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleActualizeazaBug" text="Actualizeaza Bug" />
+   </children>
+</AnchorPane>

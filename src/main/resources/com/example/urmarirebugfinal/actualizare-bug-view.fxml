@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.urmarirebugfinal.controller.ActualizareBugViewController">
+   <children>
+      <Button layoutX="256.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleActualizeaza" text="Actualizaeaza" />
+      <TextField fx:id="denumire_fld" layoutX="182.0" layoutY="46.0" prefHeight="26.0" prefWidth="235.0" promptText="Denumire Noua la Bug" />
+      <TextArea fx:id="descriere_fld" layoutX="184.0" layoutY="89.0" prefHeight="200.0" prefWidth="235.0" promptText="Descirere Noua la Bug" />
+      <Button layoutX="274.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+   </children>
+</AnchorPane>

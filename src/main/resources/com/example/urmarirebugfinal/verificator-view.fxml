@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.urmarirebugfinal.controller.VerificatorViewController">
+   <children>
+      <Button layoutX="246.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleInregistreazaBug" text="Inregistreaza Bug" />
+      <TextField fx:id="denumire_fld" layoutX="225.0" layoutY="252.0" promptText="Denumire Bug" />
+      <Button layoutX="282.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+      <TextArea fx:id="descriere_fld" layoutX="200.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" promptText="Descreire Bug" />
+   </children>
+</AnchorPane>
